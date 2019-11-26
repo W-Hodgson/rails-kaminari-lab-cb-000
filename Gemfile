@@ -12,7 +12,7 @@ gem 'faker'
 group :development, :test do
   gem 'pry'
   gem 'capybara'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '~>4.0.0.beta3'
 end
 
 group :development do
